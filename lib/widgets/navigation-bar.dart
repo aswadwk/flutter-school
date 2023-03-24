@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sekolah/pages/page-1.dart';
+import 'package:sekolah/pages/home.dart';
 
 class NavigationExample extends StatefulWidget {
   const NavigationExample({super.key});
@@ -48,7 +48,7 @@ class _NavigationExampleState extends State<NavigationExample> {
         ],
       ),
       body: <Widget>[
-        Page1(),
+        const HomePage(),
         Container(
           color: Colors.green,
           alignment: Alignment.center,
